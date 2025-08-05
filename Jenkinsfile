@@ -9,12 +9,12 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'Building the spring boot project'
+                echo 'Building the spring boot project from git'
             }
         }
         stage('test') {
             steps {
-                echo 'Test cases are running and completed'
+                echo 'Test cases are running and completed from git'
             }
         }
     }
